@@ -1,0 +1,23 @@
+.field {
+  position: relative;
+  margin: 50px auto;
+  width: 600px;
+  height: 600px;
+  border: 2px solid #000
+}
+
+.snake-block {
+  position: absolute;
+  height: 2%;
+  width: 2%;
+  background-color: #000;
+  border: 1px solid #fff;
+}
+
+.food {
+  position: absolute;
+  height: 2%;
+  width: 2%;
+  background-color: red;
+  border: 1px solid #fff;
+}
